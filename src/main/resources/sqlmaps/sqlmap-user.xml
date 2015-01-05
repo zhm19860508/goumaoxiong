@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="user">
+
+	<typeAlias alias="UserDO" type="com.goumaoxiong.dal.object.UserDO" />
+
+	<resultMap id="UserDOResultMap" class="UserDO">
+		<result property="id" column="id" />
+		<result property="isDeleted" column="is_deleted" />
+		<result property="isAdmin" column="is_admin" />
+		<result property="userName" column="user_name" />
+		<result property="password" column="password" />
+		<result property="nick" column="nick" />
+	</resultMap>
+
+	<insert id="ADD_NEW_USER" parameterClass="UserDO">
+		INSERT INTO t_gmx_user
+		(user_name,password,nick,is_admin,is_deleted)
+		VALUES
+		(#userName#,#password#,#nick#,0,0)
+		<selectKey keyProperty="id" resultClass="java.lang.Long">
+			SELECT
+			LAST_INSERT_ID() AS value
+		</selectKey>
+	</insert>
+
+	<select id="QUERY_USER" resultMap="UserDOResultMap"
+		parameterClass="java.lang.String">
+		SELECT
+		*
+		FROM t_gmx_user WHERE is_deleted = 0 AND
+		user_name = #userName#
+	</select>
+
+</sqlMap>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+				http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+				http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd"
+	default-autowire="byName">
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"   destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url">
+			<value><![CDATA[jdbc:mysql://localhost:3306/goumaoxiong?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8]]></value>
+		</property>
+		<property name="username" value="root" />
+		<property name="password" value="" />
+		<property name="defaultAutoCommit" value="true" />
+		<property name="maxActive"><value>20</value></property>
+		<property name="initialSize"><value>5</value></property>
+		<property name="maxWait"><value>60000</value></property>
+		<property name="maxIdle"><value>10</value></property>
+		<property name="minIdle"><value>3</value></property>
+		<property name="removeAbandoned"><value>true</value></property>
+		<property name="removeAbandonedTimeout"><value>180</value></property>
+		<property name="timeBetweenEvictionRunsMillis"><value>3600000</value></property>
+		<property name="minEvictableIdleTimeMillis"><value>3600000</value></property>
+	</bean>
+	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<tx:annotation-driven transaction-manager="txManager" />
+	<bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="WEB-INF/beans/sqlmap-config.xml"/>
+	</bean>
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate" p:dataSource-ref="dataSource" />   
+	
+	<!-- 业务Bean -->
+	<bean id="userDAO" class="com.goumaoxiong.dal.dao.impl.UserDAOImpl" />
+	
+</beans>
