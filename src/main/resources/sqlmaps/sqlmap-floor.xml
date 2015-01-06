@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="floor">
+
+	<typeAlias alias="FloorDO" type="com.goumaoxiong.dal.object.FloorDO" />
+
+	<resultMap id="FloorDOResultMap" class="FloorDO">
+		<result property="id" column="id" />
+		<result property="isDeleted" column="is_deleted" />
+		<result property="userName" column="user_name" />
+		<result property="subject" column="subject" />
+		<result property="content" column="content" />
+		<result property="gmtCreate" column="gmt_create" />
+		<result property="gmtModify" column="gmt_modify" />
+	</resultMap>
+
+	<insert id="ADD_NEW_FLOOR" parameterClass="FloorDO">
+		INSERT INTO t_gmx_floor
+		(user_name,subject,content,is_deleted,gmt_create,gmt_modify)
+		VALUES
+		(#userName#,#subject#,#content#,0,now(),now())
+		<selectKey keyProperty="id" resultClass="java.lang.Long">
+			SELECT
+			LAST_INSERT_ID() AS value
+		</selectKey>
+	</insert>
+
+</sqlMap>

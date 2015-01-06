@@ -11,7 +11,6 @@ import com.ibatis.sqlmap.client.SqlMapClient;
 public class UserDAOImpl implements UserDAO {
 
     @Autowired
-    // @Qualifier("sqlMapClient")
     private SqlMapClient sqlMapClient;
 
     @Override
@@ -19,7 +18,6 @@ public class UserDAOImpl implements UserDAO {
         try {
             return (Long) sqlMapClient.insert("ADD_NEW_USER", userDO);
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
             return -1L;
         }
@@ -27,8 +25,13 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public UserDO queryUserByUserName(String userName) {
-        // TODO Auto-generated method stub
-        return null;
+
+        try {
+            return (UserDO) sqlMapClient.queryForObject("QUERY_USER", userName);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
 }
