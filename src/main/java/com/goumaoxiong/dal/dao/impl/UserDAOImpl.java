@@ -2,7 +2,7 @@ package com.goumaoxiong.dal.dao.impl;
 
 import java.sql.SQLException;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
 
 import com.goumaoxiong.dal.dao.UserDAO;
 import com.goumaoxiong.dal.object.UserDO;
@@ -10,7 +10,7 @@ import com.ibatis.sqlmap.client.SqlMapClient;
 
 public class UserDAOImpl implements UserDAO {
 
-    @Autowired
+    @Resource(name = "sqlMapClient")
     private SqlMapClient sqlMapClient;
 
     @Override

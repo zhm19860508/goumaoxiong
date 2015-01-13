@@ -42,7 +42,8 @@
     <!-- URI生成。 -->
     <beans:import resource="common/uris.xml" />
     
-    <beans:import resource="beans/*.xml" />
+    <beans:import resource="beans/db-config.xml" />
+    <beans:import resource="beans/sqlmap-config.xml" />
 
     <!-- 综合设置。 -->
     <services:webx-configuration>

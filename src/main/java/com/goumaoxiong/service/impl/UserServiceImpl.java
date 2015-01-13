@@ -1,7 +1,8 @@
 package com.goumaoxiong.service.impl;
 
+import javax.annotation.Resource;
+
 import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import com.goumaoxiong.dal.dao.UserDAO;
 import com.goumaoxiong.dal.object.UserDO;
@@ -9,7 +10,7 @@ import com.goumaoxiong.service.UserService;
 
 public class UserServiceImpl implements UserService {
 
-    @Autowired
+    @Resource(name = "userDAO")
     private UserDAO userDAO;
 
     @Override
