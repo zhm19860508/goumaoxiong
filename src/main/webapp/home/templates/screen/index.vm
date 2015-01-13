@@ -6,10 +6,10 @@
         </header>
     </div>
 	<div style='position:absolute;bottom:50;line-height:0;'>
-		<img src='images/bg_01.png' />
-		<img src='images/bg_02.png' />
-		<img src='images/bg_03.png' />
-		<img src='images/bg_04.png' />
+		<img src='home/images/bg_01.png' />
+		<img src='home/images/bg_02.png' />
+		<img src='home/images/bg_03.png' />
+		<img src='home/images/bg_04.png' />
 		<p class="tagline">成长中……</p>
 	</div>
 
