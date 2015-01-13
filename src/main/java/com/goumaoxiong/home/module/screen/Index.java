@@ -12,12 +12,12 @@ public class Index {
     private UserDAO userDAO;
 
     public void execute(Context context) {
-        UserDO userDO = new UserDO();
-        userDO.setNick("D&Z");
-        userDO.setUserName("lizzie");
-        userDO.setPassword("0511");
-        Long id = userDAO.addNewUser(userDO);
-        context.put("name", id);
+//        UserDO userDO = new UserDO();
+//        userDO.setNick("D&Z");
+//        userDO.setUserName("lizzie");
+//        userDO.setPassword("0511");
+//        Long id = userDAO.addNewUser(userDO);
+//        context.put("name", id);
     }
 
 }

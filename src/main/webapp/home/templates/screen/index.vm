@@ -1,1 +1,19 @@
-$name's home
+<section class="panel home" data-section-name="home">
+    <div class="inner">
+        <header>
+            <h1>SCROLLIFY</h1>
+            <p class="tagline">Power steering for your scroll wheel</p>
+        </header>
+        <p>A jQuery plugin that assists scrolling and smoothly snaps to sections.</p>
+        <p>Fully configurable and optimised for touch.</p>
+    </div>
+</section>
+<section class="panel news" data-section-name="news">
+    <div class="inner">
+        <h2>Test</h2>
+        <p>The move method can be used to scroll to a particular section. This can take the index of the section, or the name of the section preceded by a hash.</p>
+		<pre>
+			haha
+		</pre>
+	</div>
+</section>
