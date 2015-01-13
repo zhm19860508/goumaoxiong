@@ -51,10 +51,11 @@ table {
 
 body {
 	font-size:62.5%;
-	font-family: 'Lato', sans-serif;
+	font-family: Microsoft YaHei, 'Lato', sans-serif;
 	color:#FFF;
 }
 h1 {
+	color:#548C00;
 	font-size:7em;
 	padding:1.7em 0 0 0;
 }
@@ -73,6 +74,7 @@ dd {
 	padding:0.6em 0 0.9em 0;
 }
 p {
+	color:#548C00;
 	font-size:1.9em;
 	padding:0.4em 0 0.4em 0;
 }
@@ -134,7 +136,7 @@ header {
 	border-bottom:1px solid #666;
 }
 .home {
-	background:hsl(184,65%,49%);
+	background:#FBFBFB;
 	text-align:center;
 }
 .news {

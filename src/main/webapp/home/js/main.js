@@ -4,7 +4,7 @@ $(function() {
 		section:".panel",
 		scrollSpeed:500,
 		easing:"easeOutBounce",
-		scrollbars:false
+		scrollbars:true
 	});
 	
 
