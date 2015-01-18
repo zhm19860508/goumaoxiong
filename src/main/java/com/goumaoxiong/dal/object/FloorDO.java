@@ -7,6 +7,7 @@ public class FloorDO extends BaseDO {
     private String userName;
     private String subject;
     private String content;
+    private String tags;
     private Date   gmtCreate;
     private Date   gmtModify;
 
@@ -32,6 +33,14 @@ public class FloorDO extends BaseDO {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
     }
 
     public Date getGmtCreate() {

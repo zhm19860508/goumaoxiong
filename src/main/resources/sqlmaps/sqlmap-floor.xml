@@ -11,15 +11,16 @@
 		<result property="userName" column="user_name" />
 		<result property="subject" column="subject" />
 		<result property="content" column="content" />
+		<result property="tags" column="tags" />
 		<result property="gmtCreate" column="gmt_create" />
 		<result property="gmtModify" column="gmt_modify" />
 	</resultMap>
 
 	<insert id="ADD_NEW_FLOOR" parameterClass="FloorDO">
 		INSERT INTO t_gmx_floor
-		(user_name,subject,content,is_deleted,gmt_create,gmt_modify)
+		(user_name,subject,content,tags,is_deleted,gmt_create,gmt_modify)
 		VALUES
-		(#userName#,#subject#,#content#,0,now(),now())
+		(#userName#,#subject#,#content#,#tags#,0,now(),now())
 		<selectKey keyProperty="id" resultClass="java.lang.Long">
 			SELECT
 			LAST_INSERT_ID() AS value
