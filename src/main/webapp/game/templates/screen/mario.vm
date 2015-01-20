@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title>超级玛丽~</title>
+        <link href="mario/index.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="mario/Theme/Mario.gif">
+    </head>
+    
+    <body>
+        
+        <section id="game">
+            <!-- FSM.UserWrapper will fill out this section... -->
+        </section>
+        
+        <!-- section id="controls" -->
+            <!-- FSM.UserWrapper will fill out this section... -->
+        <!-- /section -->
+        
+        <!-- build:js FullScreenMario.min.js -->
+        <script src="mario/GameStartr/EightBittr.js"></script>
+        <script src="mario/GameStartr/GameStartr.js"></script>
+        <script src="mario/GameStartr/AudioPlayr/AudioPlayr.js"></script>
+        <script src="mario/GameStartr/ChangeLinr/ChangeLinr.js"></script>
+        <script src="mario/GameStartr/FPSAnalyzr/FPSAnalyzr.js"></script>
+        <script src="mario/GameStartr/GamesRunnr/GamesRunnr.js"></script>
+        <script src="mario/GameStartr/GroupHoldr/GroupHoldr.js"></script>
+        <script src="mario/GameStartr/InputWritr/InputWritr.js"></script>
+        <script src="mario/GameStartr/LevelEditr/LevelEditr.js"></script>
+		<script src="mario/GameStartr/LevelEditr/beautify.js"></script>
+        <script src="mario/GameStartr/NumberMakr/NumberMakr.js"></script>
+        <script src="mario/GameStartr/MapsCreatr/MapsCreatr.js"></script>
+        <script src="mario/GameStartr/MapScreenr/MapScreenr.js"></script>
+        <script src="mario/GameStartr/MapsHandlr/MapsHandlr.js"></script>
+        <script src="mario/GameStartr/ModAttachr/ModAttachr.js"></script>
+        <script src="mario/GameStartr/PixelDrawr/PixelDrawr.js"></script>
+        <script src="mario/GameStartr/PixelRendr/PixelRendr.js"></script>
+        <script src="mario/GameStartr/ObjectMakr/ObjectMakr.js"></script>
+        <script src="mario/GameStartr/StatsHoldr/StatsHoldr.js"></script>
+        <script src="mario/GameStartr/StringFilr/StringFilr.js"></script>
+        <script src="mario/GameStartr/ThingHittr/ThingHittr.js"></script>
+        <script src="mario/GameStartr/TimeHandlr/TimeHandlr.js"></script>
+        <script src="mario/GameStartr/QuadsKeepr/QuadsKeepr.js"></script>
+        <script src="mario/GameStartr/UserWrappr/UserWrappr.js"></script>
+        <script src="mario/GameStartr/WorldSeedr/WorldSeedr.js"></script>
+        <script src="mario/FullScreenMario.js"></script>
+        <script src="mario/settings/audio.js"></script>
+        <script src="mario/settings/collisions.js"></script>
+        <script src="mario/settings/editor.js"></script>
+        <script src="mario/settings/generator.js"></script>
+        <script src="mario/settings/groups.js"></script>
+        <script src="mario/settings/events.js"></script>
+        <script src="mario/settings/input.js"></script>
+        <script src="mario/settings/maps.js"></script>
+        <script src="mario/settings/mods.js"></script>
+        <script src="mario/settings/objects.js"></script>
+        <script src="mario/settings/quadrants.js"></script>
+        <script src="mario/settings/renderer.js"></script>
+        <script src="mario/settings/runner.js"></script>
+        <script src="mario/settings/sprites.js"></script>
+        <script src="mario/settings/statistics.js"></script>
+        <script src="mario/settings/ui.js"></script>
+        <!-- /build -->
+        
+        <!-- build:js index.min.js -->
+        <script src="mario/index.js"></script>
+        <!-- /build -->
+    </body>
+</html>
