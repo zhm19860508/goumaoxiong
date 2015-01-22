@@ -1,4 +1,4 @@
-package com.goumaoxiong.web.game.module.screen;
+package com.goumaoxiong.web.lab.module.screen;
 
 public class Mario {
 

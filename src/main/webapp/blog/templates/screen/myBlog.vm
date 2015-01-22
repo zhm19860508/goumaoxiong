@@ -1,19 +1,26 @@
 <div class="am-g am-g-fixed blog-g-fixed">
   <div class="am-u-md-9">
 	
+	#foreach($floor in $floors)
     <article class="blog-main">
       <h3 class="am-article-title blog-title">
-        <a href="#">Google fonts 的字體（display 篇）</a>
+        <a href="#">$floor.subject</a>
       </h3>
-      <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
+      <h4 class="am-article-meta blog-meta">by <a href="">$floor.userName</a> posted on $!format.format($!floor.gmtCreate)</h4>
 
       <div class="am-g blog-content">
         <div class="am-u-lg-12">
-          <p>你自信滿滿的跟客戶進行第一次 demo<img src="http://img04.taobaocdn.com/imgextra/i4/321177015/TB2OIzGbXXXXXXfXXXXXXXXXXXX_!!321177015.jpg">秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+          <p>
+			#noescape()
+				$!floor.content
+			#end
+		  </p>
         </div>
       </div>
     </article>
     <hr class="am-article-divider blog-hr">
+	#end
+	
     <ul class="am-pagination blog-pagination">
       <li class="am-pagination-prev"><a href="">&laquo; 上一页</a></li>
       <li class="am-pagination-next"><a href="">下一页 &raquo;</a></li>

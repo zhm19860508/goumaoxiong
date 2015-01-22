@@ -44,6 +44,8 @@
     
     <beans:import resource="beans/db-config.xml" />
     <beans:import resource="beans/sqlmap-config.xml" />
+    
+    <beans:import resource="beans/service-beans.xml" />
 
     <!-- 综合设置。 -->
     <services:webx-configuration>

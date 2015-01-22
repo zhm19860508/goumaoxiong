@@ -1,26 +1,16 @@
 <div class="am-g am-g-fixed blog-g-fixed">
-  <div class="am-u-md-9">
-	<form>
-	<p><input type="text" class="am-form-field am-radius" placeholder="圆角表单域" /></p>
-	<div class="am-form-group">
-		<textarea name="content" style="width:100%;height:350px;">写点什么吧~</textarea>
-	</div>
-	<button type="button" class="am-btn am-btn-primary">发表这篇博文</button>
-    <!-- p>
-        <input type="button" name="getHtml" value="取得HTML" />
-        <input type="button" name="isEmpty" value="判断是否为空" />
-        <input type="button" name="getText" value="取得文本(包含img,embed)" />
-        <input type="button" name="selectedHtml" value="取得选中HTML" />
-        <br />
-        <br />
-        <input type="button" name="setHtml" value="设置HTML" />
-        <input type="button" name="setText" value="设置文本" />
-        <input type="button" name="insertHtml" value="插入HTML" />
-        <input type="button" name="appendHtml" value="添加HTML" />
-        <input type="button" name="clear" value="清空内容" />
-        <input type="reset" name="reset" value="Reset" />
-    </p -->
-	</form>
-  </div>
-  $control.setTemplate("blog:rightSide.vm")
+    <div class="am-u-md-9">
+        <form method="post">
+            <input type="hidden" name="action" value="BlogAction"/>
+            <p>
+                <input type="text" name="subject" class="am-form-field am-radius" placeholder="这里写标题"/>
+            </p>
+            <div class="am-form-group">
+                <textarea name="content" style="width:100%;height:350px;">写点什么吧~</textarea>
+            </div>
+            <input type="hidden" name="event_submit_do_new_blog" value="event_submit_do_new_blog"/>
+            <button type="submit" class="am-btn am-btn-primary">发表这篇博文</button>
+        </form>
+    </div>
+    $control.setTemplate("blog:rightSide.vm")
 </div>

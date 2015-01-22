@@ -1,33 +1,15 @@
 <div class="am-u-md-3 blog-sidebar">
     <div class="am-panel-group">
+		<section class="am-panel am-panel-default">
+			<input type="text" style="width:100%;" class="am-form-field am-input-sm" placeholder="装修中..." />
+		</section>
         <section class="am-panel am-panel-default">
-            <div class="am-panel-hd">狗猫熊?</div>
-            <div class="am-panel-bd">
-                <p>汪~ 喵~ 嗷~</p>
-            </div>
-        </section>
-        <section class="am-panel am-panel-default">
-            <div class="am-panel-hd">文章目录</div>
+            <div class="am-panel-hd">装修中...</div>
             <ul class="am-list blog-list">
                 <li>
-                    <a href="#">Google fonts 的字體（sans-serif 篇）</a>
-                </li>
-                <li>
-                    <a href="#">[but]服貿最前線？－再訪桃園機場</a>
-                </li>
-                <li>
-                    <a href="#">到日星鑄字行學字型</a>
-                </li>
-                <li>
-                    <a href="#">glyph font vs. 漢字（上）</a>
-                </li>
-                <li>
-                    <a href="#">浙江民間書刻體上線</a>
-                </li>
-                <li>
-                    <a href="#">[極短篇] Android v.s iOS，誰的字體好讀？</a>
+                    <a href="#">装修中...</a>
                 </li>
             </ul>
         </section>
-    </div>
+	</div>
 </div>

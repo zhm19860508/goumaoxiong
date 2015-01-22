@@ -4,6 +4,7 @@
 <sqlMap namespace="floor">
 
 	<typeAlias alias="FloorDO" type="com.goumaoxiong.dal.object.FloorDO" />
+	<typeAlias alias="FloorQuery" type="com.goumaoxiong.dal.query.FloorQuery" />
 
 	<resultMap id="FloorDOResultMap" class="FloorDO">
 		<result property="id" column="id" />
@@ -26,5 +27,40 @@
 			LAST_INSERT_ID() AS value
 		</selectKey>
 	</insert>
+
+	<select id="QUERY_ALL_FLOORS" resultMap="FloorDOResultMap"
+		parameterClass="FloorQuery">
+		SELECT * FROM
+		t_gmx_floor
+		WHERE is_deleted = 0
+		ORDER BY gmt_create DESC
+		<isNotNull property="size">
+		<![CDATA[
+			limit #start#,#size#
+		]]>
+		</isNotNull>
+	</select>
+
+	<select id="QUERY_FLOOR_BY_ID" resultMap="FloorDOResultMap"
+		parameterClass="java.lang.Long">
+		SELECT * FROM
+		t_gmx_floor
+		WHERE is_deleted = 0
+		AND id =
+		#id#
+	</select>
+
+	<update id="UPDATE_FLOOR" parameterClass="FloorDO">
+		UPDATE t_gmx_floor SET gmt_modify = now()
+		<isNotNull prepend="," property="isDeleted">
+			is_deleted = #isDeleted#
+		</isNotNull>
+		<isNotNull prepend="," property="subject">
+			subject = #subject#
+		</isNotNull>
+		<isNotNull prepend="," property="content">
+			content = #content#
+		</isNotNull>
+	</update>
 
 </sqlMap>
