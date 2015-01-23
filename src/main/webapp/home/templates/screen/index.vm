@@ -1,12 +1,9 @@
 <section class="panel home" data-section-name="home">
     <div class="inner">
         <div style="text-align:left;">
-            <h2><font color='#72441E'>@狗猫熊</font></h2>
+            <h2><font color='#72441E'>@狗猫熊的博客</font></h2>
             <a href="/blog/my_blog.htm"><img class='cal-img' src='home/img/cal/cal01.png'/></a>
         </div>
-		<div class="scene-mid scene01-mid">
-			<h3><font color='#E7512D'><-- to:小笨笨的博客</font></h3>
-		</div>
     </div>
     <div id="jando">
         <div class="jando_container">
