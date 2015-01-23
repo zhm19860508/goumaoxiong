@@ -3,7 +3,6 @@ $(function() {
 	jQuery.scrollify({
 		section:".panel",
 		scrollSpeed:500,
-		easing:"easeOutBounce",
 		scrollbars:true
 	});
 	
