@@ -1,6 +1,6 @@
 <header class="am-topbar">
   <h1 class="am-topbar-brand">
-    <a href="#">Blog</a>
+    <a href="#">Login</a>
   </h1>
   <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
     <ul class="am-nav am-nav-pills am-topbar-nav">
@@ -15,18 +15,6 @@
           <li><a href="#">关于我们</a></li>
         </ul>
       </li>
-	  <li class="am-dropdown" data-am-dropdown>
-        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-          操作 <span class="am-icon-caret-down"></span>
-        </a>
-        <ul class="am-dropdown-content">
-          <li><a href="/blog/new_blog.htm">发表新博文</a></li>
-          <li><a href="#">建设中……</a></li>
-        </ul>
-      </li>
     </ul>
-	<ul class="am-topbar-right">
-		<a href="/logout.htm">登出</a>
-	</ul>
   </div>
 </header>

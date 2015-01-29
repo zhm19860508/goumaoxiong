@@ -1,22 +1,18 @@
 package com.goumaoxiong.web.home.module.screen;
 
-import javax.annotation.Resource;
+import java.util.Calendar;
 
 import com.alibaba.citrus.turbine.Context;
-import com.goumaoxiong.dal.dao.UserDAO;
 
 public class Index {
 
-    @Resource(name="userDAO")
-    private UserDAO userDAO;
-
     public void execute(Context context) {
-        // UserDO userDO = new UserDO();
-        // userDO.setNick("D&Z");
-        // userDO.setUserName("lizzie");
-        // userDO.setPassword("0511");
-        // Long id = userDAO.addNewUser(userDO);
-        // context.put("name", id);
+        // 算当时是几月
+        int imonth = Calendar.getInstance().getTime().getMonth() + 1;
+        String cmonth = (imonth < 10) ? "0" + imonth : "" + imonth;
+        // 加上前缀
+        cmonth = "cal" + cmonth;
+        context.put("cal", cmonth);
     }
 
 }

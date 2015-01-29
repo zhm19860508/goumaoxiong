@@ -2,7 +2,7 @@
     <div class="inner">
         <div style="text-align:left;">
             <h2><font color='#72441E'>@狗猫熊的博客</font></h2>
-            <a href="/blog/my_blog.htm"><img class='cal-img' src='home/img/cal/cal01.png'/></a>
+            <a href="/blog/my_blog.htm"><img class='cal-img' src='home/img/cal/${cal}.png'/></a>
         </div>
     </div>
     <div id="jando">
@@ -11,7 +11,7 @@
         </div>
     </div>
 </section>
-<section class="panel news" data-section-name="news">
+<section class="panel lab" data-section-name="lab">
     <div class="inner">
         <h2>@狗猫熊的实验室</h2>
         <pre>

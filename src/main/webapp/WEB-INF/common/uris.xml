@@ -18,6 +18,14 @@
 			<componentPath>/</componentPath>
 		</uris:turbine-uri>
 
+		<uris:turbine-uri id="index" exposed="true" extends="homeModule">
+			<target>/index.htm</target>
+		</uris:turbine-uri>
+
+		<uris:turbine-uri id="login" exposed="true" extends="homeModule">
+			<target>/login.htm</target>
+		</uris:turbine-uri>
+
 		<uris:turbine-uri id="blogModule" exposed="true"
 			extends="server">
 			<componentPath>/blog</componentPath>
@@ -26,8 +34,7 @@
 			extends="blogModule">
 			<componentPath>/new_blog.htm</componentPath>
 		</uris:turbine-uri>
-		<uris:turbine-uri id="myBlog" exposed="true"
-			extends="blogModule">
+		<uris:turbine-uri id="myBlog" exposed="true" extends="blogModule">
 			<target>/my_blog.htm</target>
 		</uris:turbine-uri>
 

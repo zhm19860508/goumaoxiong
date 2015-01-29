@@ -1,11 +1,14 @@
 package com.goumaoxiong.dal.object;
 
-public class UserDO extends BaseDO {
+import java.io.Serializable;
 
-    private String  userName;
-    private Integer isAdmin;
-    private String  password;
-    private String  nick;
+public class UserDO extends BaseDO implements Serializable {
+
+    private static final long serialVersionUID = 6457740134445982909L;
+    private String            userName;
+    private Integer           isAdmin;
+    private String            password;
+    private String            nick;
 
     public String getUserName() {
         return userName;

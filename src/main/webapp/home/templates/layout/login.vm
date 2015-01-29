@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+  <meta charset="UTF-8">
+  <title>Login | 狗猫熊</title>
+  <link rel="shortcut icon" href="/home/img/icon.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="/blog/assets/i/favicon.png">
+  <link rel="stylesheet" href="/blog/assets/css/amazeui.css"/>
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+	.blog-footer {
+	padding: 10px 0;
+	text-align: center;
+	}
+ </style>
+</head>
+<body>
+	$control.setTemplate("home:header.vm")
+	$screen_placeholder
+	$control.setTemplate("home:footer.vm")
+</body>
+	<!--[if lt IE 9]>
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="assets/js/polyfill/rem.min.js"></script>
+    <script src="assets/js/polyfill/respond.min.js"></script>
+    <script src="assets/js/amazeui.legacy.js"></script>
+    <![endif]-->
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="/blog/assets/js/jquery.min.js"></script>
+    <script src="/blog/assets/js/amazeui.min.js"></script>
+    <!--<![endif]-->
+</html>

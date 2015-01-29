@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <link rel="Shortcut Icon" href="" />
-        <meta http-equiv="Content-Type" content="text/html;  charset=UTF-8" />
-        <meta name="description" content="" />
-        <title></title>
-        <link rel="stylesheet" href="home/css/main.css" type="text/css" />
-    </head>
+<html>
+<head lang="zh-CN">
+  <meta charset="UTF-8">
+  <title>Home | 狗猫熊</title>
+  <link rel="shortcut icon" href="/home/img/icon.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="/blog/assets/i/favicon.png">
+  <link rel="stylesheet" href="home/css/main.css" type="text/css" />
+</head>
     <body>
         $screen_placeholder
     </body>

@@ -11,9 +11,7 @@
       <div class="am-g blog-content">
         <div class="am-u-lg-12">
           <p>
-			#noescape()
-				$!floor.content
-			#end
+			$floor.content
 		  </p>
         </div>
       </div>
