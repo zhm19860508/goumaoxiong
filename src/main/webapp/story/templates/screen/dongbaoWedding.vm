@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>我们结婚啦!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1">
+
+    <!-- INCLUDE BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- INCLUDE AUTHOR CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- INCLUDE FLEXSLIDER CSS -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+    <!-- INCLUDE animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- MEGAFOLIO PRO GALLERY CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="megafolio/css/settings.css" media="screen" />
+
+    <!-- THE FANYCYBOX CSS -->
+    <link rel="stylesheet" href="megafolio/fancybox/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+
+    <!-- INCLUDE GOOGLE FONTS -->
+    <link href='css/font.css?family=Droid+Sans:400,700|Cinzel:400,700|Great+Vibes' rel='stylesheet' type='text/css'>        
+
+    <!-- INCLUDE MODERNIZR -->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+</head>
+<body class="index">
+    <div class="bghide">&nbsp;</div>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                                The Header Area With The Menu
+    ==============================================================================================================
+    ============================================================================================================== -->  
+
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="names"> Xiaohui &#38; Dongbao</div><!-- /.names -->
+            </div>
+            <nav class="navbar-collapse collapse">
+
+                <!-- THE WEDDING DATE -->
+                 <a class="navbar-brand"> 13th,June,2015</a>
+
+                 <!-- THE RIGHT SIDE MENU -->
+                <ul class="nav navbar-nav right-nav">
+                    <li><a href="#thetop">Home</a></li>
+                    <li><a href="#ourstory">Our Story</a></li>
+                    <li><a href="#guestbook">Guest Book</a></li>
+                </ul><!-- /.navbar-nav -->
+
+            </nav><!--/.navbar-collapse -->
+
+        </div><!-- /.container-->
+    </header>
+
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                                    The Slider Area
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+
+    <div class="jumbotron" id="thetop">
+
+        <section class="slider">
+            
+            <div class="flexslider" id="slider1">
+
+                <!-- THE ACTUAL PHOTO SLIDES -->
+                <ul class="slides">
+                    <li><img src="img/slider/photo1.jpg" alt="photo 1" /></li>
+                    <li><img src="img/slider/photo2.jpg" alt="photo 2" /></li>
+                    <li><img src="img/slider/photo3.jpg" alt="photo 3" /></li>
+                    <li><img src="img/slider/photo4.jpg" alt="photo 3" /></li>
+                </ul><!-- /.slides -->
+
+            </div><!-- /.flexslider -->
+
+            <!-- THE NAMES OF THE BRIDE AND GROOM -->
+            <div class="names hide">
+                <div class="container">
+                    Xiaohui <span><i>&#38;</i></span> Dongbao
+                </div><!-- /.container -->
+            </div><!-- /.names -->
+
+        </section><!-- /.slider-->
+
+    </div><!-- /.jumbotron -->
+
+    
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                        The First Area Under The Slider
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+
+    <section id="home">
+        <div class="container">
+            
+            <div class="row">
+
+                <!-- THE TITLE -->
+                <div class="col-md-12">
+                    <h2>Are Getting Married </h2>
+                </div><!-- /.col-md-12-->
+                
+                <!-- SMALL INTRODUCTORY TEXT -->
+                <div class="col-md-12">
+                    <p>冬宝叔叔要结婚啦</p>
+                </div><!-- /.col-md-12-->
+
+            </div><!-- /.col-md-12-->
+          
+        </div> <!-- /container --> 
+    </section><!-- /# home -->
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "OUR STORY" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="ourstory">
+        
+        <!-- "OUR STORY" HEADER -->
+        <div id="ourstoryphoto" class="parallax-hook parallax-ourstory parallax-background">
+            
+                <div class="section-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <header class="col-md-6 col-md-offset-3 hide">
+                                Our Love Story
+                                <span>The Good Times We Had Together</span>
+                            </header>
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </div><!-- /.section-overlay -->
+            
+        </div><!-- /#outstoryphoto -->
+
+
+        <!-- "OUR STORY" ACTUAL CONTENT -->
+        <div class="container">
+
+            <!-- SECONDARY TITLE -->
+            <h3 class="text-center intermediary-waypoint">Xiaohui & Dongbao</h3>
+
+            <!-- SECTION SMALL CONTENT -->
+            <div class="row">
+                <div class="col-md-12">
+                    <p>这里写一些文字文字文字文字</p>
+                 </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+
+            
+            <div class="row couple-photos">
+
+                <!-- THE BRIDE -->
+                <div class="col-md-6 col-xs-6 bride">
+                    <div class="round-frame-bg alignright hide">
+                        <div class="round-frame">
+                            <img src="img/thebride.jpg" alt="the bride">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg alignright hide -->
+                </div><!-- /.ccol-md-6 col-xs-6 bride-->
+
+                <!-- THE GROOM -->
+                <div class="col-md-6 col-xs-6 groom">
+                    <div class="round-frame-bg alignleft hide">
+                        <div class="round-frame">
+                            <img src="img/thegroom.jpg" alt="the groom">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg -->
+                </div><!-- /.col-md-6 col-xs-6 groom -->
+
+                <!-- LITTLE HEART GRAPHIC -->
+                <img src="img/hearts.png" class="hearts hide" alt="love">
+
+            </div><!-- /.couple-photos -->
+
+            <div class="thetimeline">
+
+                <!-- THE LINE THAT FORMS THE TIMELINE -->
+                <div class="line">&nbsp;</div>
+
+                <div class="theyear">
+
+                    <div class="year">Start</div>
+                    <!--
+                    ///////////
+                    FIRST POST 
+                    ///////////
+                    -->
+                    <div class="post odd fakeheight">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content hide">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">DEC<span>30</span></div>
+                                    <h2>第一段故事</h2>
+                                </header>
+
+                                <p>正文正文正文多写点多写点多写点</p>
+                                <div class="clear">&nbsp;</div>
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+
+                        <!-- POST EXCERPT - A GALLERY -->
+                        <div class="excerpt">
+                            <div class="excerpt-content gallery">
+                                <h4>一些照片</h4>
+                                <a href="img/bloggallery1/img-1.jpg" class="fancybox" rel="group" title="照片标题">
+                                    <img src="img/bloggallery1/thumbnails/img-1-thumb.jpg" alt="a sunset">
+                                </a>
+                                <a href="img/bloggallery1/img-2.jpg" class="fancybox" rel="group" title="照片标题">
+                                    <img src="img/bloggallery1/thumbnails/img-2-thumb.jpg" alt="a sunset">
+                                </a>
+                            </div><!-- /.excerpt-content-->
+                        </div><!-- /.excerpt -->
+                    </div><!-- /.post -->
+
+                    <!--
+                    ///////////
+                    SECOND POST 
+                    ///////////
+                    -->
+                    <div class="post even fakeheight">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content hide">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">May<span>30</span></div>
+                                    <h2>第二段故事</h2>
+                                </header>
+
+                                <p>正文正文正文多写点多写点多写点</p>
+                                <div class="clear">&nbsp;</div>
+
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+                        
+                    </div><!-- /.post -->
+
+
+                    <!--
+                    ///////////
+                    THIRD POST 
+                    ///////////
+                    -->
+                    <div class="post odd fakeheight">
+
+                        <!-- POST EXCERPT - A GALLERY -->
+                        <div class="excerpt">
+                            <div class="excerpt-content gallery">
+                                <h4>又是一些图片</h4>
+                                <a href="img/bloggallery1/img-3.jpg" class="fancybox" rel="group" title="Swinging Chairs In The Sunset">
+                                    <img src="img/bloggallery1/thumbnails/img-3-thumb.jpg" alt="a sunset">
+                                </a>
+                                <a href="img/bloggallery1/img-4.jpg" class="fancybox" rel="group" title="A little Cottage We Found">
+                                    <img src="img/bloggallery1/thumbnails/img-4-thumb.jpg" alt="a little cottage">
+                                </a>
+                                <a href="img/bloggallery1/img-5.jpg" class="fancybox" rel="group" title="Seaside is So Relaxing!">
+                                    <img src="img/bloggallery1/thumbnails/img-5-thumb.jpg" alt="seaside">
+                                </a>
+                            </div><!-- /.excerpt-content-->
+                        </div><!-- /.excerpt -->
+                        
+                    </div><!-- /.post -->
+                </div><!-- /.theyear-->
+
+                <!-- "TO BE CONTINUED" BUTTON -->
+                <div class="theyear">
+                    <div class="year">To Be Continued...</div>
+                </div>
+            </div><!-- /.timeline-->
+          
+        </div> <!-- /container --> 
+    </section><!-- /# ourstory -->
+
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "WEDDING LOCATION" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="weddinglocation">
+
+        <!-- "THE WEDDING LOCATION" HEADER -->
+        <div id="weddinglocationphoto" class="parallax-hook parallax-weddinglocation parallax-background">
+            
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3 hide">
+                            Wedding Location
+                            <span>Where's the party?</span>
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#weddinglocationphoto -->
+
+        <!-- "THE WEDDING LOCATION" ACTUAL CONTENT -->
+        <div class="container location fakeheight">
+            <div class="row hide">
+                <div class="col-md-6">
+
+                    <!-- INTERMEDIARY TITLE -->
+                    <h3 class="sectionmaintitle">婚礼地点</h3>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <!-- ADDRESS AND CEREMONY TIME -->
+                    <ul class="locationdetails">
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <div class="alignleft">
+                                <h5>Gettinsburg Town Hall</h5>
+                                <p>4567 Street name, 012 </p>
+                                <p>City name, Country</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <div class="alignleft">
+                                <h5>25th July, 2015</h5>
+                                <p>4:15 PM GMT</p>
+                                <p>10:15 PM EST</p>
+                            </div>
+                        </li>
+                    </ul><!-- /.locationdetails -->
+                </div><!-- /.col-md-6-->
+
+
+                <!-- THE MAP -->
+                <div class="col-md-6">
+                    </div><!-- /.col-md-6-->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+
+    </section><!-- weddinglocation -->
+    
+     
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "GUEST BOOK" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+    <section id="guestbook">
+
+        <!-- "REGISTRY" SECTON TITLE -->
+        <div id="registryphoto" class="parallax-hook parallax-registry parallax-background">
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3 hide">
+                            Guest Book
+                            <span>Some Lovely People Had This To Say</span>
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#registryphoto -->
+
+        <!-- "GUEST BOOK" ACTUAL CONTENT -->
+        <div class="container">
+            <div class="border">
+                <div class="row">
+                    
+                    <!-- "GUEST BOOK" COMMENT -->
+                    <div class="col-md-4" style="height:180px;">
+                        <div>
+                            <p>留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文</p>
+                            <p>by:小胖子,2015-05-20</p>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+
+
+                </div><!-- /.row -->
+            </div><!-- /.border -->
+
+            <!-- SIGN OUR GUESTBOOK SECTION -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-left">在这里写下你的祝福吧!</h3>
+                    <p>Leave us a thought, a good wish or a congratulation and you’ll make us so happy. After the wedding we will organize all the good wishes into an album for everyone to read and enjoy!</p>
+                </div>
+                <div class="col-md-6">
+
+                    <!-- "GUEST BOOK" FORM -->
+                    <form role="form" action="sign_questbook.php" method="post" id="signguestbook">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name..." id="guest-name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="guest-message" placeholder="Leave your message here..." rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" id="send_guestbook" value="Send Message">
+                        </div>
+                    </form><!-- /.signguestbook-->
+                </div><!-- /.col-md-6-->
+            </div><!-- /.row-->
+                        
+        </div><!-- /.container -->
+
+    </section><!-- guestbook -->
+
+    <footer>
+        <div class="container">
+            <p>这里还可以写一些文字</p>
+        </div>
+    </footer>
+   
+
+
+    <!-- INCLUDE jQUERY -->
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+    <!-- DETECT the device type (mobile/desktop) -->
+    <script type="text/javascript" src="js/vendor/device.min.js"></script>
+
+    <!-- INCLUDE jQuery waypoints plugin -->
+    <script src="js/vendor/waypoints.min.js"></script>
+
+    <!-- INCLUDE flexslider SCRIPT -->
+    <script defer src="js/vendor/jquery.flexslider.js"></script>
+
+    <!-- Optional FlexSlider Additions -->
+    <script src="js/vendor/jquery.easing.js"></script>
+    <script src="js/vendor/jquery.mousewheel.js"></script>
+
+    <!-- INCLUDE bootstrap SCRIPT -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <!-- INCLUDE bootstrap dropdown-on-hover plugin -->
+    <script src="js/vendor/bootstrap-hover-dropdown.min.js"></script>
+
+    <!-- INCLUDE parallax plugin -->
+    <script src="js/vendor/jquery.parallax.min.js"></script>
+
+    <!-- MEGAFOLIO PRO GALLERY JS FILES -->
+    <script type="text/javascript" src="megafolio/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="megafolio/js/jquery.themepunch.megafoliopro.js"></script>
+
+    <!-- FANCYBOX JS FILES -->
+    <script type="text/javascript" src="megafolio/fancybox/jquery.fancybox.pack.js?v=2.1.3"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media ONLY FOR ADVANCED USAGE-->
+    <script type="text/javascript" src="megafolio/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+    
+    <!-- INCLUDE other plugins and scripts AUTHOR MADE -->
+    <script src="js/vendor/jquery.queryloader2.js"></script>
+
+    <!-- INCLUDE other plugins and scripts AUTHOR MADE -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    </body>
+</html>

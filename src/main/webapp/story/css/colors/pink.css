@@ -1,0 +1,224 @@
+/* PINK = #ED3738; */
+
+a {
+	color: #ED3738;
+}
+
+h1, h2, h3, h4 {
+	color: #ED3738;
+}
+
+/* preloader screen */
+.bghide {
+	background: none repeat scroll 0 0 #ff9192;
+}
+.daysleft {
+	color: #ED3738;
+}
+/* menu hover */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #ED3738;
+	background-color: transparent;
+}
+
+/* active menu item */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: #ED3738;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	color: #ED3738;
+}
+
+/* dropdown menu */
+
+.dropdown-menu {
+	border-top: 2px solid #ED3738;
+}
+.dropdown-menu:after {
+	border-bottom-color: #ED3738;
+}
+.dropdown-menu:before {
+	border-bottom-color: #ED3738;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+	color: #ED3738;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    	color: #ED3738;
+    }
+@media (max-width: 1199px) { 
+	.navbar-inverse .navbar-nav > li > a {
+		color: #333; 
+	}
+}
+
+/* small menu */
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #ED3738;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ED3738;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+	background-color: #fff;
+}
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+	background-color: #ED3738;
+}
+.navbar-header .names {
+	color: #ED3738;
+}
+
+
+/* date color */
+.navbar-brand {
+	color: #ED3738!important;
+}
+
+/* menu navigation (active) color */
+#slider1 .flex-control-paging li a.flex-active {
+	background: #ED3738;
+}
+
+/* & color */
+.names span {
+	color:#ED3738;
+}
+
+/* UNDER the slider */
+
+#home h2 {
+	color: #ED3738;
+}
+
+/* timeline posts */
+.thetimeline .year {
+	background-color: #ED3738;
+}
+.thetimeline .post-content header h2 {
+	color: #ED3738;
+}
+.post-box .readmore  {
+	color: #ED3738; 
+}
+.thetimeline .post-box:after{
+	border-color: #ED3738;
+	border: 3px solid #ED3738;
+}
+/* "THE BRIDE's SIDE" section */
+#thebrideside h4.sectionmaintitle  {
+	color: #ED3738;
+}
+#thebrideside h5 {
+	color: #ED3738;
+}
+
+/* "THE GROOM's SIDE" section */
+#thegroomside h4.sectionmaintitle  {
+	color: #ED3738;
+}
+#thegroomside h5 {
+	color: #ED3738;
+}
+/* "WEDDING LOCATION" section */
+#weddinglocation h4.sectionmaintitle {
+	color: #ED3738;
+}
+.locationdetails li span {
+	color: #ED3738;
+}
+/* hotels and attractions */
+.hotels .readmore, .attractions .readmore {
+	background-color:#ED3738;
+}
+/* "EVENTS CALENDAR" section */
+#rsvp h4.sectionmaintitle {
+	color: #ED3738;
+}
+#rsvp .border .row .col-md-1:hover .date, #rsvp .border .row .col-md-2:hover .date, #rsvp .border .row .col-md-3:hover .date,
+#rsvp .border .row .col-md-4:hover .date, #rsvp .border .row .col-md-5:hover .date, #rsvp .border .row .col-md-6:hover .date,
+#rsvp .border .row .col-md-7:hover .date, #rsvp .border .row .col-md-8:hover .date, #rsvp .border .row .col-md-9:hover .date,
+#rsvp .border .row .col-md-10:hover .date, #rsvp .border .row .col-md-11:hover .date, #rsvp .border .row .col-md-12:hover .date {
+	color: #ED3738;
+}
+
+/* blog model 1 */
+#blog1 h4.sectionmaintitle {
+	color: #ED3738;
+}
+.post-title a {
+	color: #ED3738;
+}
+
+.blog1-container .mega-socialbar {
+	color: #ED3738;
+}
+
+.blog1-container .mega-socialbar span {
+	color: #ED3738;
+}
+
+/* blog model 2 */
+#blog2 h4.sectionmaintitle {
+	color: #ED3738;
+}
+
+/* gallery model 1 */
+#gallery1 h4.sectionmaintitle {
+	color: #ED3738;
+}
+.filter-list li:first-child.filter {
+	background: #ED3738;		
+}
+
+/* gallery model 2 */
+#gallery2 h4.sectionmaintitle {
+	color: #ED3738;
+}
+
+/* registry */
+#registry h4.sectionmaintitle {
+	color: #ED3738;
+}
+.registry .readmore{
+    background-color: #ED3738;
+}
+.donation .readmore{
+    background-color: #ED3738;
+}
+.donation span {
+	color: #ED3738;
+}
+
+/* guestbook */
+#guestbook h4.sectionmaintitle {
+	color: #ED3738;
+}
+
+/* modal window */
+
+#myModalLabel {
+	 color: #ED3738;
+}
+
+/* the footer */
+footer {
+	border-top: 2px solid #ED3738;
+}
+
+
+/* =======================================================================
+				the new bootstrap UI 
+=========================================================================== */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background: #ED3738;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary.active {
+	background: #ED3738;
+}

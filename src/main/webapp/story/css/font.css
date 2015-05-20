@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cinzel-Regular'), url(font/1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cinzel-Bold'), url(font/2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(font/3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(font/4.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(font/5.woff2) format('woff2');
+}
