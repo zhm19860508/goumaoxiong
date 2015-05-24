@@ -13,8 +13,8 @@ import com.ibatis.sqlmap.client.SqlMapClient;
 
 public class FloorDAOImpl implements FloorDAO {
 
-    @Resource(name = "sqlMapClient")
-    private SqlMapClient sqlMapClient;
+	@Resource(name = "sqlMapClient")
+	private SqlMapClient sqlMapClient;
 
     @Override
     public Long addNewFloor(FloorDO floorDO) {

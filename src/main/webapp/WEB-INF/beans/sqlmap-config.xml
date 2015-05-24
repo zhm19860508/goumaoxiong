@@ -4,4 +4,5 @@
 	<settings useStatementNamespaces="false" />
 	<sqlMap resource="sqlmaps/sqlmap-user.xml" />
 	<sqlMap resource="sqlmaps/sqlmap-floor.xml" />
+	<sqlMap resource="sqlmaps/sqlmap-dongbao.xml" />
 </sqlMapConfig>

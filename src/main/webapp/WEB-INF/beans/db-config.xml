@@ -60,5 +60,5 @@
 	<!-- 业务Bean -->
 	<bean id="userDAO" class="com.goumaoxiong.dal.dao.impl.UserDAOImpl" />
 	<bean id="floorDAO" class="com.goumaoxiong.dal.dao.impl.FloorDAOImpl" />
-
+	<bean id="dongbaoDAO" class="com.goumaoxiong.dal.dao.impl.DongbaoDAOImpl" />
 </beans>

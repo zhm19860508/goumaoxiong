@@ -38,6 +38,14 @@
 			<target>/my_blog.htm</target>
 		</uris:turbine-uri>
 
+		<uris:turbine-uri id="storyModule" exposed="true"
+			extends="server">
+			<componentPath>/story</componentPath>
+		</uris:turbine-uri>
+		<uris:turbine-uri id="dongbaoWedding" exposed="true"
+			extends="storyModule">
+			<target>/dongbao_wedding.htm</target>
+		</uris:turbine-uri>
 
 	</services:uris>
 

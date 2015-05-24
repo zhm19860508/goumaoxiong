@@ -10,4 +10,6 @@
 
 	<bean id="userService" class="com.goumaoxiong.service.impl.UserServiceImpl" />
 	<bean id="floorService" class="com.goumaoxiong.service.impl.FloorServiceImpl" />
+	<bean id="dongbaoService" class="com.goumaoxiong.service.impl.DongbaoServiceImpl" />
+
 </beans>

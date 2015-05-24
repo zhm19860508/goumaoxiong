@@ -198,105 +198,6 @@
 
             </div><!-- /.couple-photos -->
 
-            <div class="thetimeline">
-
-                <!-- THE LINE THAT FORMS THE TIMELINE -->
-                <div class="line">&nbsp;</div>
-
-                <div class="theyear">
-
-                    <div class="year">Start</div>
-                    <!--
-                    ///////////
-                    FIRST POST 
-                    ///////////
-                    -->
-                    <div class="post odd fakeheight">
-
-                        <!-- ACTUAL POST CONTENT -->
-                        <div class="post-content hide">
-                            <div class="post-box">
-
-                                <header>
-                                    <div class="date">DEC<span>30</span></div>
-                                    <h2>第一段故事</h2>
-                                </header>
-
-                                <p>正文正文正文多写点多写点多写点</p>
-                                <div class="clear">&nbsp;</div>
-                            </div><!-- /.POST-BOX -->
-                        </div><!-- /.post-content-->
-
-                        <!-- POST EXCERPT - A GALLERY -->
-                        <div class="excerpt">
-                            <div class="excerpt-content gallery">
-                                <h4>一些照片</h4>
-                                <a href="img/bloggallery1/img-1.jpg" class="fancybox" rel="group" title="照片标题">
-                                    <img src="img/bloggallery1/thumbnails/img-1-thumb.jpg" alt="a sunset">
-                                </a>
-                                <a href="img/bloggallery1/img-2.jpg" class="fancybox" rel="group" title="照片标题">
-                                    <img src="img/bloggallery1/thumbnails/img-2-thumb.jpg" alt="a sunset">
-                                </a>
-                            </div><!-- /.excerpt-content-->
-                        </div><!-- /.excerpt -->
-                    </div><!-- /.post -->
-
-                    <!--
-                    ///////////
-                    SECOND POST 
-                    ///////////
-                    -->
-                    <div class="post even fakeheight">
-
-                        <!-- ACTUAL POST CONTENT -->
-                        <div class="post-content hide">
-                            <div class="post-box">
-
-                                <header>
-                                    <div class="date">May<span>30</span></div>
-                                    <h2>第二段故事</h2>
-                                </header>
-
-                                <p>正文正文正文多写点多写点多写点</p>
-                                <div class="clear">&nbsp;</div>
-
-                            </div><!-- /.POST-BOX -->
-                        </div><!-- /.post-content-->
-                        
-                    </div><!-- /.post -->
-
-
-                    <!--
-                    ///////////
-                    THIRD POST 
-                    ///////////
-                    -->
-                    <div class="post odd fakeheight">
-
-                        <!-- POST EXCERPT - A GALLERY -->
-                        <div class="excerpt">
-                            <div class="excerpt-content gallery">
-                                <h4>又是一些图片</h4>
-                                <a href="img/bloggallery1/img-3.jpg" class="fancybox" rel="group" title="Swinging Chairs In The Sunset">
-                                    <img src="img/bloggallery1/thumbnails/img-3-thumb.jpg" alt="a sunset">
-                                </a>
-                                <a href="img/bloggallery1/img-4.jpg" class="fancybox" rel="group" title="A little Cottage We Found">
-                                    <img src="img/bloggallery1/thumbnails/img-4-thumb.jpg" alt="a little cottage">
-                                </a>
-                                <a href="img/bloggallery1/img-5.jpg" class="fancybox" rel="group" title="Seaside is So Relaxing!">
-                                    <img src="img/bloggallery1/thumbnails/img-5-thumb.jpg" alt="seaside">
-                                </a>
-                            </div><!-- /.excerpt-content-->
-                        </div><!-- /.excerpt -->
-                        
-                    </div><!-- /.post -->
-                </div><!-- /.theyear-->
-
-                <!-- "TO BE CONTINUED" BUTTON -->
-                <div class="theyear">
-                    <div class="year">To Be Continued...</div>
-                </div>
-            </div><!-- /.timeline-->
           
         </div> <!-- /container --> 
     </section><!-- /# ourstory -->
@@ -392,15 +293,15 @@
         <div class="container">
             <div class="border">
                 <div class="row">
-                    
+                    #foreach($do in $dos)
                     <!-- "GUEST BOOK" COMMENT -->
                     <div class="col-md-4" style="height:180px;">
                         <div>
-                            <p>留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文留言正文</p>
-                            <p>by:小胖子,2015-05-20</p>
+                            <p>$do.content</p>
+                            <p>by:$do.name,$format.format($do.gmtCreate)</p>
                         </div>
                     </div><!-- /.col-md-4 -->
-
+					#end
 
                 </div><!-- /.row -->
             </div><!-- /.border -->
@@ -414,12 +315,14 @@
                 <div class="col-md-6">
 
                     <!-- "GUEST BOOK" FORM -->
-                    <form role="form" action="sign_questbook.php" method="post" id="signguestbook">
+                    <form method="post" id="signguestbook">
+                   		<input type="hidden" name="action" value="DongbaoAction"/>
+                   		<input type="hidden" name="event_submit_do_add_new" value="event_submit_do_add_new"/>
                         <div class="form-group">
-                            <input type="text" placeholder="Name..." id="guest-name" class="form-control">
+                            <input type="text" name="name" placeholder="Name..." id="guest-name" class="form-control">
                         </div>
                         <div class="form-group">
-                            <textarea id="guest-message" placeholder="Leave your message here..." rows="3" class="form-control"></textarea>
+                            <textarea id="guest-message" name="content" placeholder="Leave your message here..." rows="3" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-primary" id="send_guestbook" value="Send Message">

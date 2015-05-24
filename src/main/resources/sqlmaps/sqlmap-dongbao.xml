@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="dongbao">
+
+	<typeAlias alias="DongbaoDo" type="com.goumaoxiong.dal.object.DongbaoDo" />
+
+	<resultMap id="DongbaoDoResultMap" class="DongbaoDo">
+		<result property="id" column="id" />
+		<result property="name" column="name" />
+		<result property="content" column="content" />
+		<result property="gmtCreate" column="gmt_create" />
+	</resultMap>
+
+	<insert id="ADD_NEW" parameterClass="DongbaoDo">
+		INSERT INTO t_gmx_dongbao
+		(name,content,gmt_create)
+		VALUES
+		(#name#,#content#,now())
+		<selectKey keyProperty="id" resultClass="java.lang.Long">
+			SELECT
+			LAST_INSERT_ID() AS value
+		</selectKey>
+	</insert>
+
+	<select id="QUERY_ALL" resultMap="DongbaoDoResultMap">
+		SELECT
+		*
+		FROM t_gmx_dongbao ORDER
+		BY gmt_create DESC
+	</select>
+
+</sqlMap>
