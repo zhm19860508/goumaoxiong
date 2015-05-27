@@ -52,7 +52,7 @@
     <header class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <div class="names"> Xiaohui &#38; Dongbao</div><!-- /.names -->
+                <div class="names"><B> Xiaohui &#38; Zhicheng</B></div><!-- /.names -->
             </div>
             <nav class="navbar-collapse collapse">
 
@@ -98,7 +98,7 @@
             <!-- THE NAMES OF THE BRIDE AND GROOM -->
             <div class="names hide">
                 <div class="container">
-                    Xiaohui <span><i>&#38;</i></span> Dongbao
+                    Xiaohui <span><i>&#38;</i></span> Zhicheng
                 </div><!-- /.container -->
             </div><!-- /.names -->
 
@@ -115,92 +115,21 @@
 
 
     <section id="home">
+    	<input type="hidden" id="ourstoryphoto" />
         <div class="container">
             
             <div class="row">
 
-                <!-- THE TITLE -->
-                <div class="col-md-12">
-                    <h2>Are Getting Married </h2>
-                </div><!-- /.col-md-12-->
-                
                 <!-- SMALL INTRODUCTORY TEXT -->
                 <div class="col-md-12">
-                    <p>冬宝叔叔要结婚啦</p>
+                    <p><font color="#ED3738" style="font-family: KaiTi;font-size: 30px;">徐志成 & 郑晓慧<br /><br />我们结婚啦！</font></p>
                 </div><!-- /.col-md-12-->
 
+				<img src="img/heart.png" style="width:80%;"/>
             </div><!-- /.col-md-12-->
           
         </div> <!-- /container --> 
     </section><!-- /# home -->
-
-    <!-- =========================================================================================================
-    ==============================================================================================================
-                                            "OUR STORY" section
-    ==============================================================================================================
-    ============================================================================================================== -->
-
-    <section id="ourstory">
-        
-        <!-- "OUR STORY" HEADER -->
-        <div id="ourstoryphoto" class="parallax-hook parallax-ourstory parallax-background">
-            
-                <div class="section-overlay">
-                    <div class="container">
-                        <div class="row">
-                            <header class="col-md-6 col-md-offset-3 hide">
-                                Our Love Story
-                                <span>The Good Times We Had Together</span>
-                            </header>
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div><!-- /.section-overlay -->
-            
-        </div><!-- /#outstoryphoto -->
-
-
-        <!-- "OUR STORY" ACTUAL CONTENT -->
-        <div class="container">
-
-            <!-- SECONDARY TITLE -->
-            <h3 class="text-center intermediary-waypoint">Xiaohui & Dongbao</h3>
-
-            <!-- SECTION SMALL CONTENT -->
-            <div class="row">
-                <div class="col-md-12">
-                    <p>这里写一些文字文字文字文字</p>
-                 </div><!-- /.col-md-12 -->
-            </div><!-- /.row -->
-
-            
-            <div class="row couple-photos">
-
-                <!-- THE BRIDE -->
-                <div class="col-md-6 col-xs-6 bride">
-                    <div class="round-frame-bg alignright hide">
-                        <div class="round-frame">
-                            <img src="img/thebride.jpg" alt="the bride">
-                        </div><!-- /.round-frame -->
-                    </div><!-- /.round-frame-bg alignright hide -->
-                </div><!-- /.ccol-md-6 col-xs-6 bride-->
-
-                <!-- THE GROOM -->
-                <div class="col-md-6 col-xs-6 groom">
-                    <div class="round-frame-bg alignleft hide">
-                        <div class="round-frame">
-                            <img src="img/thegroom.jpg" alt="the groom">
-                        </div><!-- /.round-frame -->
-                    </div><!-- /.round-frame-bg -->
-                </div><!-- /.col-md-6 col-xs-6 groom -->
-
-                <!-- LITTLE HEART GRAPHIC -->
-                <img src="img/hearts.png" class="hearts hide" alt="love">
-
-            </div><!-- /.couple-photos -->
-
-          
-        </div> <!-- /container --> 
-    </section><!-- /# ourstory -->
 
      <!-- =========================================================================================================
     ==============================================================================================================
@@ -234,24 +163,18 @@
                     <!-- INTERMEDIARY TITLE -->
                     <h3 class="sectionmaintitle">婚礼地点</h3>
                     
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
                     <!-- ADDRESS AND CEREMONY TIME -->
                     <ul class="locationdetails">
                         <li>
                             <span class="glyphicon glyphicon-map-marker"></span>
                             <div class="alignleft">
-                                <h5>Gettinsburg Town Hall</h5>
-                                <p>4567 Street name, 012 </p>
-                                <p>City name, Country</p>
+                                <h5>麒麟阁酒店二楼</h5>
+                                <p>五三大道延伸段1号</p>
                             </div>
-                        </li>
-                        <li>
                             <span class="glyphicon glyphicon-time"></span>
                             <div class="alignleft">
-                                <h5>25th July, 2015</h5>
-                                <p>4:15 PM GMT</p>
-                                <p>10:15 PM EST</p>
+                                <h5>2015年6月13日</h5>
+                                <p>18:18</p>
                             </div>
                         </li>
                     </ul><!-- /.locationdetails -->
@@ -295,10 +218,10 @@
                 <div class="row">
                     #foreach($do in $dos)
                     <!-- "GUEST BOOK" COMMENT -->
-                    <div class="col-md-4" style="height:180px;">
+                    <div class="col-md-4" style="height:150px;">
                         <div>
                             <p>$do.content</p>
-                            <p>by:$do.name,$format.format($do.gmtCreate)</p>
+                            <p>by:$do.name,  $format.format($do.gmtCreate)</p>
                         </div>
                     </div><!-- /.col-md-4 -->
 					#end
@@ -337,11 +260,10 @@
 
     <footer>
         <div class="container">
-            <p>这里还可以写一些文字</p>
+            <p>2015年6月13日,18:18,麒麟阁酒店二楼</p>
         </div>
     </footer>
    
-
 
     <!-- INCLUDE jQUERY -->
     <script src="js/vendor/jquery-1.10.1.min.js"></script>

@@ -13,7 +13,7 @@
 		font-size: 90px;
 	}
 	#slider1 .flex-control-nav {
-		bottom: -20px!important;
+		bottom: -10px!important;
 	}
 }
 @media (max-width: 1240px) {

@@ -32,8 +32,8 @@ a, a:hover, a:active, a:focus {
 }
 
 img, iframe {
-	background-color: rgba(255, 255, 255, 0.5);
-    	border: 1px solid #FFFFFF;
+	## background-color: rgba(255, 255, 255, 0.5);
+    ##	border: 1px solid #FFFFFF;
     	padding: 3px;
     	width: 100%;
 }
@@ -425,8 +425,8 @@ h6 {
 	}
 	#slider1 .flex-control-paging li a {
 		background: #fff;
-		width: 15px;
-		height: 15px;
+		width: 9px;
+		height: 9px;
 	}
 
 
@@ -437,7 +437,7 @@ h6 {
 		line-height: 35px;
 		text-align: center;
 		background: rgba(255, 255, 255, 0.5);
-		padding: 40px 0 8em 0;
+		padding: 40px 0 2em 0;
 
 	}
 	#home h2 {
@@ -553,8 +553,8 @@ h6 {
 		margin-left: -60px;
 	}
 	.couple-photos .round-frame {
-		height: 350px;
-    		width: 350px;
+		height: 250px;
+    		width: 250px;
     		border-radius: 250px;
     		overflow: hidden;
     		
@@ -566,11 +566,10 @@ h6 {
 	}
 	.couple-photos .round-frame-bg {
 		background-color: rgba(255, 255, 255, 0.5);
-	    	border: 1px solid #FFFFFF;
+	    	border: 0px solid #FFFFFF;
 	    	border-radius: 250px;
-	    	height: 360px;
-	    	padding: 4px;
-	    	width: 361px;
+	    	height: 250px;
+	    	width: 250px;
 	    	margin: 0;
 	}
 	.couple-photos .alignright {
@@ -1035,7 +1034,7 @@ h6 {
 --------------------------------------------------------------------------------*/
 	
 	#weddinglocation {
-		margin-bottom: 10em;
+		margin-bottom: 2em;
 		font-size: 15px;
 	}
 	#weddinglocation h4 {
@@ -1057,14 +1056,6 @@ h6 {
 	/* the header */
 	#weddinglocationphoto {
 		background:url(../img/parallax/weddinglocation.jpg);
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 300px;
-		height: 300px; 
-		margin: 0 auto; 
-		width: 100%; 
-		max-width: 1920px; 
 		margin-bottom: 50px;
 	}
 
@@ -1096,8 +1087,8 @@ h6 {
 		background: none;
 	}
 	.locationdetails li:last-child {
-		float: right;
-		width: 30%
+		float: left;
+		width: 60%
 	}
 	.locationdetails li span {
 		display: block;
@@ -1506,14 +1497,6 @@ h6 {
 	/* the header */
 	#registryphoto {
 		background:url(../img/parallax/registry.jpg);
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 300px;
-		height: 300px; 
-		margin: 0 auto; 
-		width: 100%; 
-		max-width: 1920px; 
 		margin-bottom: 50px;
 	}
 
@@ -1631,7 +1614,7 @@ h6 {
 --------------------------------------------------------------------------------*/
 
 	#guestbook {
-		margin-bottom: 10em;
+		margin-bottom: 2em;
 		font-size: 15px;
 	}
 	#guestbook .sectionmaintitle {
